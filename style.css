@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+.dir {
+    flex-direction: column;
+
+}
+
+.search {
+    display: flex;
+}
+
+.input {
+    align-items: center;
+    /* align-content: center;
+    justify-items: center;
+    justify-content: center; */
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.input img {
+    filter: invert();
+    padding: 12px;
+    opacity: 0.8;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    position: absolute;
+}
+
+.input input {
+    background-color: #1f1f1f;
+    border: none;
+    padding-left: 20px;
+    font-size: 15px;
+    height: 43px;
+    width: 400px;
+    text-indent: 30px;
+    border-radius: 20px;
+
+}
+
+.input input:hover {
+    background-color: #2b2626;
+    transition: all 0.2s ease-in;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.top {
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.top .logo {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    color: rgb(179, 179, 179);
+    font-size: 39px;
+    font-weight: 800;
+    padding-left: 400px;
+    right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    padding-right: 50px;
+}
+
+.three button {
+    padding-right: 20px;
+}
+
+.two {
+    right: 10px;
+    margin-right: 5px;
+}
+
+.two button {
+    padding-left: 4px;
+    padding-right: 1px;
+}
+
+.btn-back {
+    background-color: transparent;
+    border: none;
+    color: rgb(179, 179, 179);
+}
+
+.signin {
+    /* margin-left: 5px; */
+    height: 48px;
+    width: 100px;
+    left: 840px;
+    top: 10px;
+    position: absolute;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: white;
+    background: white;
+}
+
+.signin:hover {
+    font-size: 0.9em;
+    width: 103px;
+    color: black;
+    background-color: #ece7e7;
+    transition: all 0.3s ease-out;
+}
+
+.button button:hover {
+    font-size: 0.35em;
+    color: white;
+    cursor: pointer;
+}
+
+.left {
+    width: 27vw;
+    height: 700px;
+    color: white;
+    background: #121212;
+}
+
+.close {
+    filter: invert();
+    position: absolute;
+    display: none;
+}
+
+.lib {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 25px 20px 0px;
+}
+
+.playlist,
+.podcasts {
+    height: 130px;
+    width: 400px;
+    background-color: #1f1f1f;
+
+}
+
+.playlist {
+    margin: 58px 5px;
+    margin-bottom: 15px;
+}
+
+.podcasts {
+    margin: 0 5px;
+}
+
+.left-btn {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 25px;
+    width: 130px;
+    height: 35px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 12.5px;
+}
+
+.left-btn:hover {
+    width: 133px;
+    transition: all 0.05s ease-out;
+
+}
+
+.big {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.small {
+    padding-left: 16px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.right {
+    width: 73vw;
+    background-color: #121212;
+    margin-left: 10px;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+/* .bg-grey{
+    background-color: #1f1f1f;
+} */
+/* .playlist, .podcasts{
+    position: relative;
+}
+.big, .small{
+    position: absolute;
+} */
+div {
+    position: relative;
+}
+
+.card-1 {
+    position: absolute;
+}
+
+.box {
+    min-height: 80vh;
+}
+
+.Trending {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-left: 50px;
+
+}
+
+.trend {
+    margin-left: 35px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.card {
+    height: 270px;
+    width: 170px;
+    /* border: 2px solid red; */
+    padding-left: 25px;
+    color: white;
+    position: relative;
+}
+
+.card:hover {
+    background-color: #1f1f1f;
+    transition: all 0.4s ease-out
+}
+
+.card img {
+    object-fit: contain;
+    width: 165px;
+    height: 175px;
+    border: 10px;
+}
+
+.card h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+}
+
+.card .play-icon {
+    position: absolute;
+    right: 8px;
+    top: 100px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.play-icon:hover {
+    opacity: 1;
+}
+
+.card>* {
+    padding-top: 1px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 11px;
+    gap: 13px;
+    bottom: 60px;
+    left: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+}
+.footer a:hover{
+    color: #aaa;
+}
+
+.spotifyPlaylists {
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    color: white;
+    padding: 11px;
+    height: 35px;
+}
+
+.playbar {
+    position: absolute;
+    top: 620px;
+    color: white;
+    background-color: aliceblue;
+    display: flex;
+    width: 90%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 600px; */
+    /* right: 500px;
+    padding: 5px; */
+
+}
+
+.song-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+@media (max-width:1400px) {
+    .left {
+        position: absolute;
+        left: -120%;
+        transition: all .3s;
+        z-index: 1;
+        width: 250px;
+        background-color: black;
+    }
+
+    .playlist,
+    .podcasts {
+        width: 227px;
+    }
+
+    .playlist {
+        margin: 18px 5px;
+    }
+
+    .podcasts {
+        height: 160px;
+    }
+
+    .right {
+        width: 100vw;
+    }
+
+    .hamburger {
+        display: block;
+        filter: brightness(500);
+        fill: white;
+    }
+
+    .close {
+        display: block;
+        height: 31px;
+        right: 20px;
+        position: absolute;
+
+    }
+
+    .top .logo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .input input {
+        width: 300px;
+        text-indent: 20px;
+    }
+
+    .top {
+        margin-left: 70px;
+    }
+
+    .button {
+        padding-left: 20px;
+    }
+
+    .signin {
+        left: 400px;
+    }
+
+    /* .two{
+    right: 10px;
+    margin-right: 5px;
+} */
+    .three button {
+        padding-right: 0px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .input input {
+        width: 20px;
+    }
+    .left{
+        top: -20px;
+    }
+    .top{
+        gap: 0px;
+    }
+    .signin{
+        top: -7px;
+        left: 171px;
+        width: 70px;
+    }
+    .button {
+        font-size: 12px;
+        bottom: 17px;
+        margin-top: 18px;
+    }
+    
+    .two{
+        padding: 20px;
+        margin-right: 39px;
+    }
+    .disp{
+        display: none;
+    }
+
+
+    .three {
+        padding-right: 0px;
+    }
+}

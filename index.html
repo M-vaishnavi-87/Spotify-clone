@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="search">
+        <img class="hamburger" src="assets/images/hamburger.svg" alt="">
+        <div class="top flex">
+            <div class="logo"><img src="assets/images/logo.svg" alt=""></div>
+            <div class="home"><img height="30px" width="35px" src="assets/images/home.svg" alt=""></div>
+            <div class="input">
+                <img width="20px" src="assets/images/search.svg" alt="search icon">
+                <input type="text" placeholder="What do you want to play?">
+            </div>
+        </div>
+        <div class="header">
+            <div class="nav">
+                <!-- <img class="hamburger" src="assets/images/hamburger.svg" alt=""> -->
+                <div class="button">
+                    <div class="three">
+                        <button class="  btn-back">Premium</button>
+                        <button class=" btn-back">Support</button>
+                        <button class="btn-back disp">Download</button>
+                    </div>
+                    <div class="two">
+                        <button class="btn-back disp">Install App</button>
+                        <button class="btn-back">Sign up</button>
+                    </div>
+                </div>
+                <button class="signin">Log In</button>
+            </div>
+        </div>
+    </div>
+    <div class="container flex">
+        <div class="left flex dir">
+            <img class="close" src="assets/images/cross.svg" alt="close">
+            <span class="lib">Your Library</span>
+            <div class="box">
+                <div class="playlist bg-grey radius">
+                    <div class="card-1 dir flex">
+                        <span class="big">Create Your first playlist</span>
+                        <span class="small">It's easy, we'll help you</span>
+                        <button class="left-btn">Create playlist</button>
+                    </div>
+                </div>
+                <div class="podcasts dir bg-grey radius">
+                    <div class="card-1 dir flex">
+                        <span class="big">Let's find some podcasts to follow</span>
+                        <span class="small">We'll keep you updated on new episodes</span>
+                        <button class="left-btn">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="https://www.spotify.com/in-en/legal/">
+                    <span>Legal</span>
+                </a>
+
+                <div>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                        <span>Safety &amp; Privacy Center</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                        <span>Privacy Policy</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                        <span>Cookies</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                        <span>About Ads</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.spotify.com/in-en/accessibility/">
+                        <span>Accessibility</span>
+                    </a>
+                </div>
+                <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                    rel="noopener">
+                    <span>Cookies</span>
+                </a>
+            </div>
+
+        </div>
+        <div class="right bg-grey">
+            <div class="spotifyPlayLists">
+                <div class="trend">
+                    <span>Trending songs</span>
+                </div>
+                <div class="Trending">
+                    <div class="card">
+                        <svg class="play-icon" width="60" height="80" viewBox="0 0 80 80"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <!-- Green Circle -->
+                            <circle cx="40" cy="40" r="35" fill="#1DB954" />
+
+                            <!-- Black Play Triangle -->
+                            <polygon points="32,25 58,40 32,55" fill="black" />
+                        </svg>
+
+                        <img src="assets/images/card-1.jpeg" alt="">
+                        <h2>I'm Done. -I-Popstar:
+                            Vol.1</h2>
+                        <p>Maan Panu</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="play-icon" width="60" height="80" viewBox="0 0 80 80"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <!-- Green Circle -->
+                            <circle cx="40" cy="40" r="35" fill="#1DB954" />
+
+                            <!-- Black Play Triangle -->
+                            <polygon points="32,25 58,40 32,55" fill="black" />
+                        </svg>
+
+                        <img src="assets/images/card-1.jpeg" alt="">
+                        <h2>I'm Done. -I-Popstar:
+                            Vol.1</h2>
+                        <p>Maan Panu</p>
+                    </div>
+                </div>
+                <!-- <div class="playbar">
+                    <div class="song-info"></div>
+                    <div class="songs-btn">
+                        <img src="assets/images/prev.svg" alt="">
+                        <img src="assets/images/play.svg" alt="">
+                        <img src="assets/images/next.svg" alt="">
+                    </div>
+                    <div class="song-time"></div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
